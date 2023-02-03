@@ -10,7 +10,7 @@ import requests, json
 
 
 
-def tradGov(name):
+def tradGov(name,count=5):
 
     url = f"https://data.trade.gov/consolidated_screening_list/v1/search?name={name}"
 
